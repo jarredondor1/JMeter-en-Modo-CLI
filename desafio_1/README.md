@@ -43,14 +43,15 @@ Este proyecto contiene scripts y configuraciones para realizar pruebas de rendim
 git clone https://github.com/jarredondor1/JMeter-en-Modo-CLI.git
 
 cd JMeter-en-Modo-CLI 
-
+ ```
+---
 ### **Ejecutar Pruebas en Modo CLI**
 
-1.Navega a la carpeta del script:
+### 1.Navega a la carpeta del script:
 
 cd "desafio_1"
 
-2. Ejecuta el archivo JMX:
+### 2. Ejecuta el archivo JMX:
 
 jmeter -n -t RetoPruebasPerformance.jmx -l resultados.jtl -e -o reporte3_html
 
@@ -59,13 +60,13 @@ jmeter -n -t RetoPruebasPerformance.jmx -l resultados.jtl -e -o reporte3_html
 -l: Archivo de salida con resultados en formato .jtl.
 -e -o: Generar reporte HTML en la carpeta reporte3_html.
 
-3. Accede al reporte:
+### 3. Accede al reporte:
 
 Abre el archivo reporte3_html/index.html en tu navegador.
 
-### **Casos de Pruebas**
+## **Casos de Pruebas**
 
-Pruebas Incluidas
+### Pruebas Incluidas
 
 Visitar Páginas del Sistema:
 /wiki/Wikipedia:Portada
@@ -74,7 +75,7 @@ Visitar Páginas del Sistema:
 /wiki/Especial:P%C3%A1ginasNuevas
 /wiki/Sin_miedo_a_nada
 
-Métricas Evaluadas
+### Métricas Evaluadas
 
 - Tiempos de respuesta (Promedio, Mediana, Mínimo, Máximo).
 - Throughput (Transacciones por segundo).
